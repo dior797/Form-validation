@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/Javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <form name="registration" onSubmit="return validation();">
+            <fieldset>
+                <legend style="align :center;">Personal Information</legend> <br>
+                <label>First Name: </label> <br>
+                <input type="text" placeholder="First Name" name="fname"> <br>
+                <label>Last Name: </label> <br>
+                <input type="text" placeholder="Last Name" name="lname"> <br>
+                <label>Gender</label> <br>
+                <select name="gname">
+                    <option selected="" value="Default">Select</option>
+                    <option>Male</option>
+                    <OPTION>Female</OPTION>
+                </select> <br>
+                <label>Phone Number: </label> <br>
+                <input type="text" placeholder="Phone Number" name="number"> <br> <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
